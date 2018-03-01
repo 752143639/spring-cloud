@@ -1,0 +1,4 @@
+spring: 
+  datasource: 
+    username: dbuser
+    password: '{cipher}AQAqFL6tqJQE2cCa/RzvzzWAQiCaXjp+TQTNRvVFp0kn15viGNTnjGeeRLdCe0Gu2PEn5SJA4xAM6pndrd4fd4sQyrkjSMebuF4sUsLdLSZagnc+eib3/pp6q74nsU71b5qwvHMqF3A2icVtlQ6uOzK9NAocgKXqSjs11GVHx/L3l8zGpdmycxKeuN5HQOILBS+Djm9q4BRzUkRl1lXg8vHFjCf0GK90/7XWxS1ie+WDhzsugGJKqjS+I/jpjR8CFfV01hpoIvb0ytg4T5obspzlwk2JjF/A8M62GLdpWXCrihpU8W2fVR82U3BW8xetJwuwGSAkxtjDHmhTqlwNIfNYuUq2dGYELg/s9Outk4Z+WMH1aH08Sg+Bsv9HFfjDN2A='
