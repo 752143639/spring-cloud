@@ -1,0 +1,4 @@
+com\itmuch\cloud\study\controller\UserController.class
+com\itmuch\cloud\study\entity\User.class
+com\itmuch\cloud\study\ProviderUserApplication.class
+com\itmuch\cloud\study\repository\UserRepository.class

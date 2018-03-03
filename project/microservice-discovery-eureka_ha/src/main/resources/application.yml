@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: microservice-discovery-eureka_ha
+---
+spring:
+  #指定profile=localhost
+  profiles: peer1
+server:
+   port: 8761
+eureka:
+  instance:
+    #指定当profile=localhost时，主机名是localhost
+   hostname: localhost
+  clent:
+   serviceUrl:
+   #将自己注册 到peer2这个eureka上面去
+   defaultZone: http://locahost2:8762/eureka/
+---
+spring:
+  #指定profile=peer2
+  profiles: peer2
+server:
+   port: 8762
+eureka:
+  instance:
+    #指定当profile=peer2时，主机名是localhost2
+   hostname: localhost2
+  clent:
+   serviceUrl:
+   #将自己注册 到peer2这个eureka上面去
+   defaultZone: http://localhost:8761/eureka/
+  
